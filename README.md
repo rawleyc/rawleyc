@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Rawley Chirume</h1>
-<h3 align="center">A passionate jack of all tech-trades from Zimbabwe</h3>
+<h3 align="center">A passionate jack of all tech-trades from Poland</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rawleyc&label=Profile%20views&color=0e75b6&style=flat" alt="rawleyc" /> </p>
 
