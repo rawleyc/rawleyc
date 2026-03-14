@@ -2,7 +2,7 @@
 
 # Rawley Chirume
 
-### SOC Analyst · Cloud Security Automation · DevSecOps
+### SOC Analyst · Cloud Security Engineering · DevSecOps
 
 [![Security+](https://img.shields.io/badge/CompTIA-Security%2B-FF0000?style=for-the-badge&logo=comptia&logoColor=white)](#)
 [![ISC2 CC](https://img.shields.io/badge/ISC²-Certified_in_Cybersecurity-00A98F?style=for-the-badge&logo=isc2&logoColor=white)](#)
@@ -21,7 +21,7 @@
 
 ## 🧭 Professional Summary
 
-Security-focused IT professional with hands-on SOC training and cloud security automation experience. **Ranked Top 1% on TryHackMe** with practical exposure to log analysis, incident triage, and threat detection workflows. Experienced in monitoring AWS environments, analyzing authentication activity, and implementing **automated containment mechanisms** to mitigate security incidents. Passionate about helping organizations detect, investigate, and respond to security threats in real time.
+Security-focused IT professional with hands-on SOC training and cloud security engineering experience. **Ranked Top 1% on TryHackMe** with practical exposure to log analysis, incident triage, and threat detection workflows. Experienced in monitoring AWS environments, analyzing authentication activity, and implementing **automated containment mechanisms** to mitigate security incidents. Passionate about helping organizations detect, investigate, and respond to security threats in real time.
 
 ---
 
@@ -42,7 +42,7 @@ graph LR
     end
 
     subgraph DEVSECOPS["🔒 DEVSECOPS — THE CONVERGENCE"]
-        C1[Cloud Security\nAutomation]
+        C1[Cloud Security\nEngineering]
         C2[Automated Incident\nResponse]
         C3[Security-as-Code &\nCI/CD Hardening]
     end
@@ -72,7 +72,7 @@ graph LR
 |--------|-------|
 | 🔍 **Detect & Respond** | Incident triage, alert escalation, root cause analysis, and real-time threat detection using SIEM platforms |
 | 🛡️ **Secure Identities** | AWS IAM policy enforcement, Active Directory administration, least-privilege access, and Kerberos/LDAP analysis |
-| ☁️ **Cloud Security Automation** | Event-driven security pipelines with CloudTrail, Lambda, and SNS for automated containment and alerting |
+| ☁️ **Cloud Security Engineering** | Event-driven security pipelines with CloudTrail, Lambda, and SNS for automated containment and alerting |
 | 🔗 **Network Analysis** | TCP/IP traffic inspection, DNS investigation, and port-level analysis using Wireshark |
 | ⚙️ **Automate & Harden** | Python (Boto3) scripting for security automation, CI/CD pipeline hardening, and infrastructure-as-code |
 
@@ -256,7 +256,7 @@ I'm a Security-focused IT professional who bridges the gap between **Cybersecuri
 
 ### 📬 Let's Connect
 
-Open to roles in **SOC Analysis**, **Cloud Security**, and **Security Automation**.
+Open to roles in **SOC Analysis**, **Cloud Security Engineering**, and **Cyber Security**.
 
 [![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chirumerawley@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rawleyc)
