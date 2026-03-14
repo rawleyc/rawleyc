@@ -1,119 +1,168 @@
 <div align="center">
 
-# 👋 Rawley Chirume
+# Rawley Chirume
 
-**Cloud Engineer | Cybersecurity Specialist | IT Support Specialist**
+### SOC Analyst · Cloud Security Automation · DevSecOps
 
-[![Email](https://img.shields.io/badge/Email-chirumerawley%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:chirumerawley@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-rawleyc-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rawleyc)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-DartMouthWrld-212C42?style=flat&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/DartMouthWrld)
-[![GitHub](https://img.shields.io/badge/GitHub-rawleyc-181717?style=flat&logo=github&logoColor=white)](https://github.com/rawleyc)
+[![Security+](https://img.shields.io/badge/CompTIA-Security%2B-FF0000?style=for-the-badge&logo=comptia&logoColor=white)](#)
+[![ISC2 CC](https://img.shields.io/badge/ISC²-Certified_in_Cybersecurity-00A98F?style=for-the-badge&logo=isc2&logoColor=white)](#)
+[![TryHackMe SAL1](https://img.shields.io/badge/TryHackMe-SAL1_Certified-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/DartMouthWrld)
 
-📍 Lublin, Poland | 🎓 B.Sc. Computer Science — Lubelska Akademia WSEI | 🔒 ISC2 Certified in Cybersecurity (CC) | SAL1 Certifified (TryHackMe)
+[![Email](https://img.shields.io/badge/Email-chirumerawley%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:chirumerawley@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rawleyc-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rawleyc)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_1%25-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/DartMouthWrld)
+[![GitHub](https://img.shields.io/badge/GitHub-rawleyc-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rawleyc)
+
+🎓 B.Sc. Computer Science — Lubelska Akademia WSEI · 📍 Lublin, Poland
 
 </div>
 
 ---
 
+## 🧭 Professional Summary
+
+Security-focused IT professional with hands-on SOC training and cloud security automation experience. **Ranked Top 1% on TryHackMe** with practical exposure to log analysis, incident triage, and threat detection workflows. Experienced in monitoring AWS environments, analyzing authentication activity, and implementing **automated containment mechanisms** to mitigate security incidents. Passionate about helping organizations detect, investigate, and respond to security threats in real time.
+
+---
+
+## 🔀 Career Trajectory — Where Cybersecurity Meets Cloud
+
+```mermaid
+graph LR
+    subgraph CYBER["🛡️ CYBERSECURITY"]
+        A1[Incident Triage &\nThreat Detection]
+        A2[Log Analysis &\nSIEM Monitoring]
+        A3[Network &\nTraffic Analysis]
+    end
+
+    subgraph CLOUD["☁️ CLOUD ENGINEERING"]
+        B1[AWS IAM &\nIdentity Management]
+        B2[Serverless &\nEvent-Driven Architecture]
+        B3[Infrastructure &\nAutomation]
+    end
+
+    subgraph DEVSECOPS["🔒 DEVSECOPS — THE CONVERGENCE"]
+        C1[Cloud Security\nAutomation]
+        C2[Automated Incident\nResponse]
+        C3[Security-as-Code &\nCI/CD Hardening]
+    end
+
+    A1 --> C1
+    A2 --> C2
+    A3 --> C3
+    B1 --> C1
+    B2 --> C2
+    B3 --> C3
+
+    style CYBER fill:#1a1a2e,stroke:#e94560,stroke-width:2px,color:#eee
+    style CLOUD fill:#1a1a2e,stroke:#0f3460,stroke-width:2px,color:#eee
+    style DEVSECOPS fill:#16213e,stroke:#00b4d8,stroke-width:3px,color:#eee
+    style C1 fill:#0f3460,stroke:#00b4d8,color:#eee
+    style C2 fill:#0f3460,stroke:#00b4d8,color:#eee
+    style C3 fill:#0f3460,stroke:#00b4d8,color:#eee
+```
+
+> *One foot in **Cybersecurity**, the other in **Cloud** — meeting in the middle at **DevSecOps**.*
+
+---
+
 ## 🎯 What I Do
 
-- **Architect & Build**: Design serverless applications and event-driven architectures using AWS Lambda, API Gateway, and Python.
-- **Identity & Access**: Manage hybrid identity environments, bridging on-premise Active Directory with AWS Managed Microsoft AD.
-- **Secure & Monitor**: Implement security best practices (IAM hardening, Security Groups, GuardDuty) and automate threat detection.
-- **Support & Troubleshoot**: Deliver Tier 2/3 systems support for Windows/Linux environments and manage Office365 administration.
-- **Automate**: Build CI/CD pipelines and automate infrastructure provisioning using Terraform and scripts.
+| Domain | Focus |
+|--------|-------|
+| 🔍 **Detect & Respond** | Incident triage, alert escalation, root cause analysis, and real-time threat detection using SIEM platforms |
+| 🛡️ **Secure Identities** | AWS IAM policy enforcement, Active Directory administration, least-privilege access, and Kerberos/LDAP analysis |
+| ☁️ **Cloud Security Automation** | Event-driven security pipelines with CloudTrail, Lambda, and SNS for automated containment and alerting |
+| 🔗 **Network Analysis** | TCP/IP traffic inspection, DNS investigation, and port-level analysis using Wireshark |
+| ⚙️ **Automate & Harden** | Python (Boto3) scripting for security automation, CI/CD pipeline hardening, and infrastructure-as-code |
 
 ---
 
 ## 🚀 Featured Projects
 
-### **1. [Serverless Incident Management System](https://github.com/rawleyc/serverless-incident-manager)**
+### **1. [Cloud Security Automation Lab](https://github.com/rawleyc/cloud-security-automation)** &nbsp; `Mar 2026`
 
-![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
+![AWS CloudTrail](https://img.shields.io/badge/CloudTrail-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
+![AWS IAM](https://img.shields.io/badge/IAM-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![SNS](https://img.shields.io/badge/SNS-FF4F8B?style=flat&logo=amazon-aws&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazon-dynamodb&logoColor=white)
-![API Gateway](https://img.shields.io/badge/API_Gateway-FF4F8B?style=flat&logo=amazon-aws&logoColor=white)
 
-**A fully serverless, event-driven IT support ticketing portal.**
+**A mini SOC built in AWS — automated cloud threat detection and incident response pipeline.**
 
-- 🏗️ **Architecture:** Designed a cost-efficient microservices architecture that scales to zero when idle.
-- ⚡ **Backend:** Developed RESTful APIs using **AWS Lambda (Python/Boto3)** and **API Gateway**.
-- 💾 **Database:** Implemented **DynamoDB** with partition keys for sub-millisecond data retrieval.
-- 🔔 **Automation:** Integrated **Amazon SNS** to trigger real-time SMS/Email alerts to admins upon ticket creation.
-- 🌐 **Frontend:** Deployed a static Single Page Application (SPA) on **Amazon S3** with CORS security configurations.
+- 🔍 **Detection:** Built an automated threat detection pipeline ingesting **CloudTrail** logs via serverless event triggers.
+- 🚨 **Containment:** Implemented automated incident containment by attaching **restrictive IAM policies** when suspicious activity is detected.
+- ⚡ **Response Time:** Reduced incident response time from **hours → seconds** through automated alerting and response workflows.
+- 📢 **Alerting:** Configured **SNS** to notify security teams immediately of high-risk access events.
 
 ---
 
-### **2. [Enterprise Identity Infrastructure](https://github.com/rawleyc/enterprise-identity-lab)**
+### **2. [Enterprise Identity Infrastructure (AWS/AD)](https://github.com/rawleyc/enterprise-identity-lab)** &nbsp; `Jan 2026`
 
 ![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat&logo=windows&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 ![Networking](https://img.shields.io/badge/Networking-VPC_&_DNS-success?style=flat&logo=cisco&logoColor=white)
 
-**Hybrid identity solution bridging Windows Server AD with AWS Cloud.**
+**Fault-tolerant AWS infrastructure integrated with Active Directory identity management — replacing legacy on-premise systems.**
 
-- ☁️ **Infrastructure:** Deployed **AWS Managed Microsoft AD** (Standard Edition) across multiple Availability Zones for High Availability.
-- 🔗 **Networking:** Engineered secure VPC DNS resolution and DHCP Option Sets to enable seamless domain discovery.
-- 🛡️ **Security:** Hardened network security by configuring **Security Groups** to restrict traffic to essential ports (DNS/Kerberos/LDAP).
-- 👥 **Administration:** Managed users, groups, and GPOs using **Remote Server Administration Tools (RSAT)** on EC2 management instances.
-
----
-
-### **3. [AWS CI/CD Pipeline with Security Hardening](https://github.com/rawleyc/DevOps---CI-CD-Project)**
-
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Security](https://img.shields.io/badge/Security-Hardened-success?style=flat&logo=security&logoColor=white)
-
-**Security-focused DevOps automation pipeline.**
-
-- ✅ Automated deployment workflows using **AWS CodePipeline** and **Jenkins**.
-- 🔐 Implemented **IAM hardening** with least-privilege access policies.
-- 📊 Integrated **CloudTrail** for audit logging and **GuardDuty** for threat detection.
+- ☁️ **High Availability:** Deployed **AWS Managed Microsoft AD** across multiple Availability Zones.
+- 🛡️ **Access Control:** Configured Group Policies and enforced **least-privilege access** for all user accounts.
+- 🔗 **Networking:** Engineered secure VPC DNS resolution and DHCP Option Sets for seamless domain discovery.
+- 📄 **Audit-Ready:** Documented infrastructure architecture and access management procedures for security auditing.
 
 ---
 
-## 🛠️ Skills Snapshot
+### **3. [Serverless Incident Management System](https://github.com/rawleyc/serverless-incident-manager)** &nbsp; `Jan 2026`
+
+![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazon-dynamodb&logoColor=white)
+![API Gateway](https://img.shields.io/badge/API_Gateway-FF4F8B?style=flat&logo=amazon-aws&logoColor=white)
+
+**Serverless security incident ticketing system to improve SOC response coordination.**
+
+- 🏗️ **Architecture:** Designed a cost-efficient, event-driven microservices architecture that scales to zero when idle.
+- ⚡ **Backend:** Developed RESTful APIs using **AWS Lambda (Python/Boto3)** and **API Gateway**.
+- 🔔 **Event-Driven:** Enabled automated incident creation to streamline SOC team coordination.
+- 📉 **Efficiency:** Reduced infrastructure overhead while maintaining scalable incident handling.
+
+---
+
+## 🛠️ Skills & Technologies
 
 <table>
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
-### ☁️ Cloud & Architecture
-- **Compute:** AWS Lambda, EC2
-- **Storage/DB:** S3, DynamoDB
-- **Networking:** VPC, Route53, API Gateway
-- **Identity:** AWS Managed AD, IAM
-
-</td>
-<td valign="top" width="50%">
-
-### 🔐 Security & Operations
-- Active Directory (Hybrid/Cloud)
-- Security Groups & NACLs
-- CloudTrail, GuardDuty
-- ISC2 Cybersecurity fundamentals
-- Microsoft Defender for Endpoint
+### 🔍 Security Operations
+- Incident Triage & Escalation
+- Threat Detection & Log Analysis
+- Root Cause Analysis
+- TCP/IP & DNS Traffic Analysis
+- Port Analysis (53, 88)
+- Authentication Protocols (Kerberos, LDAP)
 
 </td>
-</tr>
-<tr>
-<td valign="top" width="50%">
+<td valign="top" width="34%">
 
-### 📜 Code & Scripting
-- **Python** (Boto3, Automation)
-- **Web:** HTML/JS (Client-side integration)
-- PowerShell (Admin tasks)
-- Bash (Linux Automation)
+### ☁️ Cloud Security
+- AWS (EC2, IAM, VPC, Lambda)
+- CloudTrail Audit Logging
+- IAM Policy Enforcement
+- Identity Federation Concepts
+- S3 & DynamoDB
+- VPC, Route53, API Gateway
 
 </td>
-<td valign="top" width="50%">
+<td valign="top" width="33%">
 
-### 🧰 Tools & Platforms
-- Git/GitHub
-- Jenkins (CI/CD)
-- Jira / ServiceNow
-- Splunk (SIEM)
+### 🧰 Platforms & Tooling
+- **SIEM:** Splunk · IBM QRadar
+- **Network:** Wireshark
+- **Monitoring:** AWS CloudTrail · GuardDuty
+- **Identity:** Active Directory · Group Policy
+- **Scripting:** Python (Boto3) · Bash · PowerShell
+- **DevOps:** Git · GitHub · Jenkins
 
 </td>
 </tr>
@@ -121,61 +170,83 @@
 
 ---
 
-## 💼 Experience Highlights
+## 💼 Experience
 
 ### **Mine Vaganti NGO** — *Project Management & IT Support*
-**Jul 2025 – Sept 2025**
+**Jul 2025 – Sep 2025**
 
-- 📋 Supported project management for **5+ international youth and community initiatives**.
-- 🤝 Maintained communication with **10+ European partner organizations**, ensuring on-time milestone delivery.
-- 🖥️ Coordinated internal IT support requests and troubleshooting (Windows/Linux, Office365, email).
-- 📄 Created technical documentation and annex guides for project websites.
+- 🔐 Administered **Active Directory** environments including Organizational Units and Group Policy Objects.
+- ☁️ Supported **Microsoft 365** infrastructure and user authentication issues.
+- 🎫 Resolved service desk incidents via ticketing systems while maintaining **SLA targets**.
+- 📄 Documented troubleshooting procedures to improve response consistency.
 
-### **InPost S.A.** — *Warehouse Operations Coordinator*
+### **InPost S.A.** — *Logistics Operations Coordinator*
 **Nov 2024 – Jun 2025**
 
-- 📦 Managed logistics workflows, inspected shipments, and enforced safety/quality standards.
-- 🎓 Trained colleagues on operational equipment and internal tracking software.
-- ⚙️ Supported day-to-day technical processes in a fast-paced logistics environment.
+- 🌐 Diagnosed workstation and **TCP/IP connectivity** issues in a high-volume operational environment.
+- 🔍 Investigated recurring system incidents affecting warehouse management systems.
+- 🚨 Acted as **first-response technical contact** for operational IT disruptions.
 
 ---
 
-## 📚 Learning & Labs
+## 📚 Training & Continuous Learning
 
-### **TryHackMe Active Learner** — [Profile](https://tryhackme.com/p/DartMouthWrld)
+### **TryHackMe** — [Top 1% Global Rank](https://tryhackme.com/p/DartMouthWrld)
 
-![TryHackMe Badge](https://img.shields.io/badge/Rooms_Completed-125%2B-success?style=flat&logo=tryhackme&logoColor=white)
+![TryHackMe Top 1%](https://img.shields.io/badge/Rank-Top_1%25_Globally-success?style=flat&logo=tryhackme&logoColor=white)
+![Rooms Completed](https://img.shields.io/badge/Rooms_Completed-125%2B-blue?style=flat&logo=tryhackme&logoColor=white)
+
+**Completed Learning Paths:**
+- ✅ Pre-Security
+- ✅ Cyber Security 101
+- ✅ SOC Level 1
 
 **Focus Areas:**
 - Cloud Security (AWS Identity, S3 Security)
-- Defensive Security (SIEM, Log Analysis)
-- Network Security (Nmap, Wireshark)
-- Windows/Linux Privilege Escalation
+- Defensive Security (SIEM, Log Analysis, Incident Response)
+- Network Security (Nmap, Wireshark, Protocol Analysis)
+
+---
+
+## 🎓 Education & Certifications
+
+| | Credential | Status |
+|---|---|---|
+| 🔴 | **CompTIA Security+ Certified** | ✅ Active |
+| 🟢 | **ISC² Certified in Cybersecurity (CC)** | ✅ Active |
+| 🟣 | **TryHackMe Security Analyst (SAL1)** | ✅ Certified |
+| 🎓 | **B.Sc. Computer Science** — Lubelska Akademia WSEI | 📖 2024 – Present |
+
+---
 
 <details>
 <summary><strong>📖 More About Me</strong></summary>
+<br/>
 
-I'm a Cloud Engineer and Security Enthusiast passionate about building secure, scalable infrastructure. My background bridges the gap between traditional IT operations (Active Directory, Systems Admin) and modern Cloud Architecture (Serverless, IaC).
+I'm a Security-focused IT professional who bridges the gap between **Cybersecurity Operations** and **Cloud Engineering**. My trajectory is intentional: building deep expertise in threat detection and incident response while architecting automated security solutions in the cloud — converging at **DevSecOps**.
+
+**What drives me:**
+- Building automated detection and response pipelines that reduce MTTR
+- Translating security operations knowledge into cloud-native solutions
+- Continuous research and hands-on lab work to stay ahead of emerging threats
 
 **Languages:**
-- English (Native)
-- Shona (Native)
-
-Currently focused on:
-- Advanced AWS Serverless Patterns
-- Hybrid Identity Management
-- Preparing for AWS Solutions Architect Associate
+- 🇬🇧 English (Native)
+- 🇿🇼 Shona (Native)
 
 </details>
 
 <details>
-<summary><strong>🎓 Coursework & Education</strong></summary>
+<summary><strong>💡 Soft Skills & Strengths</strong></summary>
+<br/>
 
-**B.Sc. Computer Science** — Lubelska Akademia WSEI
-- Algorithms & Data Structures
-- Operating Systems (Windows/Linux)
-- Computer Networks & Security
-- Cloud Computing
+- Analytical Thinking & Pattern Recognition
+- Structured Incident Escalation
+- Attention to Detail in Log Review
+- Calm Decision-Making Under Pressure
+- Risk Awareness & Security Mindset
+- Documentation for Audit & Compliance
+- Continuous Threat Research (Self-Learning Driven)
 
 </details>
 
@@ -185,12 +256,14 @@ Currently focused on:
 
 ### 📬 Let's Connect
 
-I'm open to collaborating on cloud automation, serverless projects, and security research.
+Open to roles in **SOC Analysis**, **Cloud Security**, and **Security Automation**.
 
-**Feel free to reach out via [Email](mailto:chirumerawley@gmail.com) or [LinkedIn](https://linkedin.com/in/rawleyc)**
+[![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chirumerawley@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rawleyc)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe_Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/DartMouthWrld)
 
 ---
 
-*"Security is not a product, but a process." – Bruce Schneier*
+*"Security is not a product, but a process." — Bruce Schneier*
 
 </div>
