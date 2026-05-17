@@ -80,20 +80,19 @@ graph LR
 
 ## 🚀 Featured Projects
 
-### **1. [Cloud Security Automation Lab](https://github.com/rawleyc/cloud-security-automation)** &nbsp; `Mar 2026`
+### **1. [AWS Cloud Detection Lab](https://github.com/rawleyc/aws-cloud-detection-lab)** &nbsp; `May 2026`
 
 ![AWS CloudTrail](https://img.shields.io/badge/CloudTrail-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
-![AWS IAM](https://img.shields.io/badge/IAM-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![SNS](https://img.shields.io/badge/SNS-FF4F8B?style=flat&logo=amazon-aws&logoColor=white)
+![VPC Flow Logs](https://img.shields.io/badge/VPC_Flow_Logs-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazon-s3&logoColor=white)
 
-**A mini SOC built in AWS — automated cloud threat detection and incident response pipeline.**
+**Cloud-native threat detection pipeline — deployed on AWS free tier, detecting real-world attacks.**
 
-- 🔍 **Detection:** Built an automated threat detection pipeline ingesting **CloudTrail** logs via serverless event triggers.
-- 🚨 **Containment:** Implemented automated incident containment by attaching **restrictive IAM policies** when suspicious activity is detected.
-- ⚡ **Response Time:** Reduced incident response time from **hours → seconds** through automated alerting and response workflows.
-- 📢 **Alerting:** Configured **SNS** to notify security teams immediately of high-risk access events.
+- 🔍 **Detection:** Built a Python pipeline ingesting CloudTrail and VPC Flow Logs from S3 via boto3, with 9 MITRE ATT&CK-mapped detection rules across IAM and network layers.
+- 🌐 **Real findings:** Detected active internet scanning from 6 external IPs within hours of EC2 deployment — no synthetic traffic required.
+- ⚙️ **Engineering:** State-based deduplication, alert grouping to prevent fatigue, and modular rule registry for easy extension.
+- 📄 **Output:** Timestamped markdown findings reports with severity triage and MITRE mapping.
 
 ---
 
