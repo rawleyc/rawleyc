@@ -7,7 +7,7 @@
 [![Security+](https://img.shields.io/badge/CompTIA-Security%2B-FF0000?style=for-the-badge&logo=comptia&logoColor=white)](https://www.credly.com/badges/f0c492fa-89af-4b5f-b64c-05f8eba23ab4)
 [![ISC2 CC](https://img.shields.io/badge/ISC²-Certified_in_Cybersecurity-00A98F?style=for-the-badge&logo=isc2&logoColor=white)](https://www.credly.com/badges/de4893fe-54d8-4fd8-b86d-784a25a32d6f)
 [![AWS SAA](https://img.shields.io/badge/AWS-Solutions_Architect_Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://www.credly.com/badges/66893dd5-70c5-4348-9c42-f8bc85ef7701)
-[![TryHackMe SAL1](https://img.shields.io/badge/TryHackMe-SAL1_Certified-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/DartMouthWrld)
+[![TryHackMe SAL1](https://img.shields.io/badge/TryHackMe-SAL1_Certified-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://www.credly.com/badges/c87397d8-8120-4272-836d-d41c91163a7b)
 
 [![Email](https://img.shields.io/badge/Email-chirumerawley%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:chirumerawley@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rawleyc-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rawleyc)
