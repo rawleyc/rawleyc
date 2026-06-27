@@ -97,18 +97,19 @@ graph LR
 
 ---
 
-### **2. [Enterprise Identity Infrastructure (AWS/AD)](https://github.com/rawleyc/enterprise-identity-lab)** &nbsp; `Jan 2026`
+### **2. [Cloud Security Automation](https://github.com/rawleyc/cloud-security-automation)** &nbsp; `Mar 2026`
 
-![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat&logo=windows&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Networking](https://img.shields.io/badge/Networking-VPC_&_DNS-success?style=flat&logo=cisco&logoColor=white)
+![CloudTrail](https://img.shields.io/badge/CloudTrail-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![EventBridge](https://img.shields.io/badge/EventBridge-FF4F8B?style=flat&logo=amazon-aws&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
+![SNS](https://img.shields.io/badge/SNS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 
-**Fault-tolerant AWS infrastructure integrated with Active Directory identity management — replacing legacy on-premise systems.**
+**Real-time AWS SOC automation pipeline for unauthorized S3 access detection, containment, and alerting.**
 
-- ☁️ **High Availability:** Deployed **AWS Managed Microsoft AD** across multiple Availability Zones.
-- 🛡️ **Access Control:** Configured Group Policies and enforced **least-privilege access** for all user accounts.
-- 🔗 **Networking:** Engineered secure VPC DNS resolution and DHCP Option Sets for seamless domain discovery.
-- 📄 **Audit-Ready:** Documented infrastructure architecture and access management procedures for security auditing.
+- 🔍 **Detection:** Monitored CloudTrail S3 data events via EventBridge for suspicious bucket/object access.
+- ⚡ **Automated Response:** Triggered Lambda to apply a deny-all IAM policy to the offending IAM user.
+- 🔔 **SOC Alerting:** Published incident details to SNS for immediate security-team notification.
+- 📄 **Audit Visibility:** Preserved event context for investigation and post-incident review.
 
 ---
 
