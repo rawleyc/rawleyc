@@ -81,7 +81,40 @@ graph LR
 
 ## 🚀 Featured Projects
 
-### **1. [AWS Cloud Detection Lab](https://github.com/rawleyc/aws-cloud-detection-lab)** &nbsp; `May 2026`
+### **1. [Słówka V2 — AI-Augmented Polish Vocabulary Engine](https://github.com/rawleyc/modest-bell)** &nbsp; `Aug 2026`
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+
+**AI-powered language learning platform with a 5-stage cognitive mastery pipeline and adaptive spaced repetition.**
+
+- 🧠 **5-Stage Mastery Framework:** Guides learners through Learn → Recognize → Recall → Rebuild → Use stages, progressing from flashcard introduction to full sentence composition.
+- 📈 **Adaptive Spaced Repetition:** Dynamic mastery scoring (0–100) with tier-based review scheduling (12 hours → 30 days) and automated decay calculations.
+- 🤖 **Resilient AI Engine:** Google Gemini API integration for context-aware exercise generation with automatic local fallback and PostgreSQL JSONB caching for sub-millisecond responses.
+- ⚡ **Gamification:** Turbo Mode rapid-fire practice, daily XP streaks, overdue review banners, and a comprehensive analytics dashboard.
+- 🧪 **Tested:** Vitest suite covering mastery scheduling, game engine state transitions, adaptive session building, and AI provider fallback logic.
+
+---
+
+### **2. [Serverless Task API (Terraform)](https://github.com/rawleyc/stunning-eureka)** &nbsp; `Jul 2026`
+
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
+![API Gateway](https://img.shields.io/badge/API_Gateway-FF4F8B?style=flat&logo=amazon-aws&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazon-dynamodb&logoColor=white)
+
+**Terraform-based serverless task manager API built to practice cloud architecture fundamentals end to end.**
+
+- 🏗️ **Infrastructure as Code:** Provisioned API Gateway, Lambda, DynamoDB, IAM roles/policies, and CloudWatch logs with Terraform.
+- 🔗 **Serverless API Flow:** Designed request routing from API Gateway to Lambda with DynamoDB-backed task operations.
+- 📈 **Incremental Delivery:** Structured development in phases from Terraform basics through CRUD, IAM hardening, and refactoring.
+
+---
+
+### **3. [AWS Cloud Detection Lab](https://github.com/rawleyc/aws-cloud-detection-lab)** &nbsp; `May 2026`
 
 ![AWS CloudTrail](https://img.shields.io/badge/CloudTrail-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 ![VPC Flow Logs](https://img.shields.io/badge/VPC_Flow_Logs-232F3E?style=flat&logo=amazon-aws&logoColor=white)
@@ -97,7 +130,7 @@ graph LR
 
 ---
 
-### **2. [Cloud Security Automation](https://github.com/rawleyc/cloud-security-automation)** &nbsp; `Mar 2026`
+### **4. [Cloud Security Automation](https://github.com/rawleyc/cloud-security-automation)** &nbsp; `Mar 2026`
 
 ![CloudTrail](https://img.shields.io/badge/CloudTrail-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 ![EventBridge](https://img.shields.io/badge/EventBridge-FF4F8B?style=flat&logo=amazon-aws&logoColor=white)
@@ -113,7 +146,7 @@ graph LR
 
 ---
 
-### **3. [Serverless Incident Management System](https://github.com/rawleyc/serverless-incident-manager)** &nbsp; `Jan 2026`
+### **5. [Serverless Incident Management System](https://github.com/rawleyc/serverless-incident-manager)** &nbsp; `Jan 2026`
 
 ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -126,21 +159,6 @@ graph LR
 - ⚡ **Backend:** Developed RESTful APIs using **AWS Lambda (Python/Boto3)** and **API Gateway**.
 - 🔔 **Event-Driven:** Enabled automated incident creation to streamline SOC team coordination.
 - 📉 **Efficiency:** Reduced infrastructure overhead while maintaining scalable incident handling.
-
----
-
-### **4. [Serverless Task API (Terraform)](https://github.com/rawleyc/stunning-eureka)** &nbsp; `Jul 2026`
-
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
-![API Gateway](https://img.shields.io/badge/API_Gateway-FF4F8B?style=flat&logo=amazon-aws&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazon-dynamodb&logoColor=white)
-
-**Terraform-based serverless task manager API built to practice cloud architecture fundamentals end to end.**
-
-- 🏗️ **Infrastructure as Code:** Provisioned API Gateway, Lambda, DynamoDB, IAM roles/policies, and CloudWatch logs with Terraform.
-- 🔗 **Serverless API Flow:** Designed request routing from API Gateway to Lambda with DynamoDB-backed task operations.
-- 📈 **Incremental Delivery:** Structured development in phases from Terraform basics through CRUD, IAM hardening, and refactoring.
 
 ---
 
