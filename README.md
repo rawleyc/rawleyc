@@ -81,7 +81,23 @@ graph LR
 
 ## 🚀 Featured Projects
 
-### **1. [Słówka V2 — AI-Augmented Polish Vocabulary Engine](https://github.com/rawleyc/modest-bell)** &nbsp; `Aug 2026`
+### **1. [Leaking Star](https://github.com/rawleyc/leaking-star)** &nbsp; `Sep 2026`
+
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazon-s3&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazon-dynamodb&logoColor=white)
+
+**Event-driven AWS pipeline that ingests files from a public S3 bucket, moves them to a private S3 bucket, and logs transfers in DynamoDB.**
+
+- 📥 **Automated Ingestion:** S3 object-created events trigger a Lambda workflow without manual intervention.
+- 🔄 **Secure Transfer:** Lambda reads from the public bucket and copies objects to a private bucket.
+- 🗂️ **Audit Logging:** Each transfer is recorded in DynamoDB with timestamp, source, destination, and filename metadata.
+- 🏗️ **IaC Deployment:** End-to-end resources provisioned and managed with Terraform.
+
+---
+
+### **2. [Słówka V2 — AI-Augmented Polish Vocabulary Engine](https://github.com/rawleyc/modest-bell)** &nbsp; `Aug 2026`
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat&logo=react&logoColor=black)
@@ -99,7 +115,7 @@ graph LR
 
 ---
 
-### **2. [Serverless Task API (Terraform)](https://github.com/rawleyc/stunning-eureka)** &nbsp; `Jul 2026`
+### **3. [Serverless Task API (Terraform)](https://github.com/rawleyc/stunning-eureka)** &nbsp; `Jul 2026`
 
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
@@ -111,54 +127,6 @@ graph LR
 - 🏗️ **Infrastructure as Code:** Provisioned API Gateway, Lambda, DynamoDB, IAM roles/policies, and CloudWatch logs with Terraform.
 - 🔗 **Serverless API Flow:** Designed request routing from API Gateway to Lambda with DynamoDB-backed task operations.
 - 📈 **Incremental Delivery:** Structured development in phases from Terraform basics through CRUD, IAM hardening, and refactoring.
-
----
-
-### **3. [AWS Cloud Detection Lab](https://github.com/rawleyc/aws-cloud-detection-lab)** &nbsp; `May 2026`
-
-![AWS CloudTrail](https://img.shields.io/badge/CloudTrail-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![VPC Flow Logs](https://img.shields.io/badge/VPC_Flow_Logs-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazon-s3&logoColor=white)
-
-**Cloud-native threat detection pipeline — deployed on AWS free tier, detecting real-world attacks.**
-
-- 🔍 **Detection:** Built a Python pipeline ingesting CloudTrail and VPC Flow Logs from S3 via boto3, with 9 MITRE ATT&CK-mapped detection rules across IAM and network layers.
-- 🌐 **Real findings:** Detected active internet scanning from 6 external IPs within hours of EC2 deployment — no synthetic traffic required.
-- ⚙️ **Engineering:** State-based deduplication, alert grouping to prevent fatigue, and modular rule registry for easy extension.
-- 📄 **Output:** Timestamped markdown findings reports with severity triage and MITRE mapping.
-
----
-
-### **4. [Cloud Security Automation](https://github.com/rawleyc/cloud-security-automation)** &nbsp; `Mar 2026`
-
-![CloudTrail](https://img.shields.io/badge/CloudTrail-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![EventBridge](https://img.shields.io/badge/EventBridge-FF4F8B?style=flat&logo=amazon-aws&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
-![SNS](https://img.shields.io/badge/SNS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-
-**Real-time AWS SOC automation pipeline for unauthorized S3 access detection, containment, and alerting.**
-
-- 🔍 **Detection:** Monitored CloudTrail S3 data events via EventBridge for suspicious bucket/object access.
-- ⚡ **Automated Response:** Triggered Lambda to apply a deny-all IAM policy to the offending IAM user.
-- 🔔 **SOC Alerting:** Published incident details to SNS for immediate security-team notification.
-- 📄 **Audit Visibility:** Preserved event context for investigation and post-incident review.
-
----
-
-### **5. [Serverless Incident Management System](https://github.com/rawleyc/serverless-incident-manager)** &nbsp; `Jan 2026`
-
-![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat&logo=aws-lambda&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazon-dynamodb&logoColor=white)
-![API Gateway](https://img.shields.io/badge/API_Gateway-FF4F8B?style=flat&logo=amazon-aws&logoColor=white)
-
-**Serverless security incident ticketing system to improve SOC response coordination.**
-
-- 🏗️ **Architecture:** Designed a cost-efficient, event-driven microservices architecture that scales to zero when idle.
-- ⚡ **Backend:** Developed RESTful APIs using **AWS Lambda (Python/Boto3)** and **API Gateway**.
-- 🔔 **Event-Driven:** Enabled automated incident creation to streamline SOC team coordination.
-- 📉 **Efficiency:** Reduced infrastructure overhead while maintaining scalable incident handling.
 
 ---
 
